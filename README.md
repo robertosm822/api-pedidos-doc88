@@ -27,3 +27,7 @@ Versão do Laravel usada 5.5 (para manter compatibilidade com servidor HostGator
 ## Rodar as Migrations das tabelas:
  
     - php artisan migrate 
+
+## Pendente criar o servico de Seeder para deixar populado os exemplos:
+ 
+ - https://stackoverflow.com/questions/34382043/laravel-how-do-i-insert-the-first-user-in-the-database
