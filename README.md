@@ -41,27 +41,47 @@ Versão do Laravel usada 5.5 (para manter compatibilidade com servidor HostGator
   - php artisan serve
 
 ## Rotas dos seviços criados:
-``|        | POST      | api/v1/clientes                | clientes.store   | App\Http\Controllers\ClienteController@store   | api          |
-|        | GET|HEAD  | api/v1/clientes                | clientes.index   | App\Http\Controllers\ClienteController@index   | api          |
-|        | GET|HEAD  | api/v1/clientes/create         | clientes.create  | App\Http\Controllers\ClienteController@create  | api          |
-|        | GET|HEAD  | api/v1/clientes/{cliente}      | clientes.show    | App\Http\Controllers\ClienteController@show    | api          |
-|        | PUT|PATCH | api/v1/clientes/{cliente}      | clientes.update  | App\Http\Controllers\ClienteController@update  | api          |
-|        | DELETE    | api/v1/clientes/{cliente}      | clientes.destroy | App\Http\Controllers\ClienteController@destroy | api          |
-|        | GET|HEAD  | api/v1/clientes/{cliente}/edit | clientes.edit    | App\Http\Controllers\ClienteController@edit    | api          |
-|        | GET|HEAD  | api/v1/pasteis                 | pasteis.index    | App\Http\Controllers\PastelController@index    | api          |
-|        | POST      | api/v1/pasteis                 | pasteis.store    | App\Http\Controllers\PastelController@store    | api          |
-|        | GET|HEAD  | api/v1/pasteis/create          | pasteis.create   | App\Http\Controllers\PastelController@create   | api          |
-|        | DELETE    | api/v1/pasteis/{pastei}        | pasteis.destroy  | App\Http\Controllers\PastelController@destroy  | api          |
-|        | GET|HEAD  | api/v1/pasteis/{pastei}        | pasteis.show     | App\Http\Controllers\PastelController@show     | api          |
-|        | PUT|PATCH | api/v1/pasteis/{pastei}        | pasteis.update   | App\Http\Controllers\PastelController@update   | api          |
-|        | GET|HEAD  | api/v1/pasteis/{pastei}/edit   | pasteis.edit     | App\Http\Controllers\PastelController@edit     | api          |
-|        | GET|HEAD  | api/v1/pedidos                 | pedidos.index    | App\Http\Controllers\PedidoController@index    | api          |
-|        | POST      | api/v1/pedidos                 | pedidos.store    | App\Http\Controllers\PedidoController@store    | api          |
-|        | GET|HEAD  | api/v1/pedidos/create          | pedidos.create   | App\Http\Controllers\PedidoController@create   | api          |
-|        | GET|HEAD  | api/v1/pedidos/{pedido}        | pedidos.show     | App\Http\Controllers\PedidoController@show     | api          |
-|        | PUT|PATCH | api/v1/pedidos/{pedido}        | pedidos.update   | App\Http\Controllers\PedidoController@update   | api          |
-|        | DELETE    | api/v1/pedidos/{pedido}        | pedidos.destroy  | App\Http\Controllers\PedidoController@destroy  | api          |
-|        | GET|HEAD  | api/v1/pedidos/{pedido}/edit   | pedidos.edit     | App\Http\Controllers\PedidoController@edit     | api          |``
+``
+| POST      | api/v1/clientes                | clientes.store   | App\Http\Controllers\ClienteController@store
+
+| GET|HEAD  | api/v1/clientes    | clientes.index   | App\Http\Controllers\ClienteController@index   
+
+| GET|HEAD  | api/v1/clientes/create         | clientes.create  | App\Http\Controllers\ClienteController@create  
+
+| GET|HEAD  | api/v1/clientes/{cliente}      | clientes.show    | App\Http\Controllers\ClienteController@show    
+
+| PUT|PATCH | api/v1/clientes/{cliente}      | clientes.update  | App\Http\Controllers\ClienteController@update  
+| DELETE    | api/v1/clientes/{cliente}      | clientes.destroy | App\Http\Controllers\ClienteController@destroy 
+
+| GET|HEAD  | api/v1/clientes/{cliente}/edit | clientes.edit    | App\Http\Controllers\ClienteController@edit    
+
+| GET|HEAD  | api/v1/pasteis                 | pasteis.index    | App\Http\Controllers\PastelController@index    
+
+| POST      | api/v1/pasteis                 | pasteis.store    | App\Http\Controllers\PastelController@store    
+
+| GET|HEAD  | api/v1/pasteis/create          | pasteis.create   | App\Http\Controllers\PastelController@create   
+
+| DELETE    | api/v1/pasteis/{pastei}        | pasteis.destroy  | App\Http\Controllers\PastelController@destroy  
+
+| GET|HEAD  | api/v1/pasteis/{pastei}        | pasteis.show     | App\Http\Controllers\PastelController@show     
+
+| PUT|PATCH | api/v1/pasteis/{pastei}        | pasteis.update   | App\Http\Controllers\PastelController@update   
+
+| GET|HEAD  | api/v1/pasteis/{pastei}/edit   | pasteis.edit     | App\Http\Controllers\PastelController@edit     
+
+| GET|HEAD  | api/v1/pedidos                 | pedidos.index    | App\Http\Controllers\PedidoController@index    
+
+| POST      | api/v1/pedidos                 | pedidos.store    | App\Http\Controllers\PedidoController@store    
+
+| GET|HEAD  | api/v1/pedidos/create          | pedidos.create   | App\Http\Controllers\PedidoController@create   
+
+| GET|HEAD  | api/v1/pedidos/{pedido}        | pedidos.show     | App\Http\Controllers\PedidoController@show     
+
+| PUT|PATCH | api/v1/pedidos/{pedido}        | pedidos.update   | App\Http\Controllers\PedidoController@update   
+
+| DELETE    | api/v1/pedidos/{pedido}        | pedidos.destroy  | App\Http\Controllers\PedidoController@destroy  
+
+| GET|HEAD  | api/v1/pedidos/{pedido}/edit   | pedidos.edit     | App\Http\Controllers\PedidoController@edit |``
 
 
 ## Referências de recursos usados:
