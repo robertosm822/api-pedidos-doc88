@@ -11,7 +11,9 @@ Versão do Laravel usada 5.5 (para manter compatibilidade com servidor HostGator
     - Tokenizer PHP Extension
     - XML PHP Extension
 
-## Renomear arquivo 'package.json.example' para 'package.json'
+## Renomear arquivos: 
+ - 'package.json.example' para 'package.json'
+ - 'composer.json.example' para 'composer.json'
 
 ## Instalar as dependencias usando o COMPOSER:
  
