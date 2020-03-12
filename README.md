@@ -28,10 +28,6 @@ Versão do Laravel usada 5.5 (para manter compatibilidade com servidor HostGator
  
     - php artisan migrate 
 
-## Pendente criar o servico de Seeder para deixar populado os exemplos:
- 
- - https://stackoverflow.com/questions/34382043/laravel-how-do-i-insert-the-first-user-in-the-database
-
 ## Gerar os Seeder de cadastros de exemplo:
   - php artisan db:seed --class=ClientesTableSeeder
   - php artisan db:seed --class=PastelsTableSeeder
