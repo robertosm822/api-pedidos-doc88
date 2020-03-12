@@ -39,3 +39,14 @@ Versão do Laravel usada 5.5 (para manter compatibilidade com servidor HostGator
 
 ## Inicializar (opcional) o server:
   - php artisan serve
+
+
+
+## Referências de recursos usados:
+ - https://laravel.com/docs/5.5/installation
+ - https://laravel.com/docs/5.5/eloquent
+ - https://laravel.com/docs/5.5/migrations
+ - https://laravel.com/docs/5.5/eloquent-relationships#one-to-many
+ - https://laravel.com/docs/5.5/eloquent#soft-deleting
+ - https://laravel.com/docs/5.5/seeding
+ - https://github.com/fruitcake/laravel-cors
